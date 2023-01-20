@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora do Guilherme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="calculadora">
+        <div class="container-input">
+            <input type="text" class="input-valor">
+        </div>
+        <div class="container-linhas">
+            <div class="linhas">
+                <div class="botao CE" onclick="limpartudo()">CE</div>
+                <div class="botao" onclick="limpar()">C</div>
+                <div class="botao" onclick="cor()"> Cor </div>
+                <div class="botao" onclick="dividir()">/</div>
+            </div>
+            <div class="linhas">
+                <div class="botao" onclick="sete()">7</div>
+                <div class="botao" onclick="oito()">8</div>
+                <div class="botao" onclick="nove()">9</div>
+                <div class="botao" onclick="multiplicar()">*</div>
+            </div>
+            <div class="linhas">
+                <div class="botao" onclick="quatro()">4</div>
+                <div class="botao" onclick="cinco()">5</div>
+                <div class="botao" onclick="seis()">6</div>
+                <div class="botao" onclick="menos()">-</div>
+            </div>
+            <div class="linhas">
+                <div class="botao" onclick="um()">1</div>
+                <div class="botao" onclick="dois()">2</div>
+                <div class="botao" onclick="tres()">3</div>
+                <div class="botao" onclick="mais()">+</div>
+            </div>
+            <div class="linhas">
+                <div class="botao"></div>
+                <div class="botao" onclick="zero()">0</div>
+                <div class="botao" onclick="virgula()">,</div>
+                <div class="botao" onclick="resultado()">=</div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
