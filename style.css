@@ -1,5 +1,17 @@
+body {
+    margin: 1%;
+    padding: 1%;
+}
+
+@media (max-width: 400px) {
+    body {
+        margin: 0.2%;
+        padding: 0.2%;
+    }
+}
+
 .calculadora {
-    width: 23%;
+    width: 320px;
     height: 500px;
     background-color: black;
     padding: 30px 17px;
